@@ -26,6 +26,7 @@ const StyledApp = styled.div`
   height: 100%;
   margin-inline: auto;
   padding-block: 3.2rem;
+  gap: 3.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

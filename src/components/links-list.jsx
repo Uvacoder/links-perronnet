@@ -22,5 +22,4 @@ const StyledLinksList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  margin-block: 3.2rem;
 `
