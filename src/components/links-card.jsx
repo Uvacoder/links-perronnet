@@ -45,5 +45,9 @@ const StyledLinksCard = styled.li`
       fill: currentColor;
       opacity: 0.5;
     }
+
+    @media screen and (max-width: 640px) {
+      font-size: var(--fs-sm);
+    }
   }
 `

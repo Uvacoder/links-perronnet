@@ -34,10 +34,16 @@ const TitleSubtitle = styled.div`
     font-size: var(--fs-lg);
     font-weight: 700;
     color: ${({ theme }) => theme.foreground["02"]};
+
+    @media screen and (max-width: 640px) {
+      font-size: var(--fs-md);
+    }
   }
 
   p {
-    font-size: var(--fs-sm);
+    @media screen and (max-width: 640px) {
+      font-size: var(--fs-sm);
+    }
   }
 `
 
