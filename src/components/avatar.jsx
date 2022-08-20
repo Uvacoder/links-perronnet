@@ -15,6 +15,8 @@ const StyledAvatar = styled.div`
   position: relative;
 
   img {
+    width: 9.6rem;
+    aspect-ratio: 1/1;
     border-radius: 999rem;
     border: 0.2rem solid ${({ theme }) => theme.primary};
   }
