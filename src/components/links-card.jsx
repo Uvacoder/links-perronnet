@@ -23,11 +23,13 @@ const StyledLinksCard = styled.li`
     text-decoration: none;
     color: currentColor;
     padding: 1.4rem;
-    transition: all 0.2s ease-in-out;
+    transition: all 150ms ease-in-out;
+    outline: 0.2rem solid transparent;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 
     &:hover {
       color: ${({ theme }) => theme.foreground["02"]};
+      outline: 0.2rem solid ${({ theme }) => theme.border};
       box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
         0 4px 6px -4px rgb(0 0 0 / 0.1);
       transform: translateY(-0.4rem);
