@@ -1,7 +1,7 @@
 import styled, { ThemeProvider } from "styled-components"
 import { useThemes } from "~/hooks"
 import { GlobalStyle, lightTheme, darkTheme } from "~/styles"
-import { Profil } from "~/components"
+import { Profil, LinksList } from "~/components"
 
 export const App = () => {
   const [theme, setTheme] = useThemes()
@@ -12,6 +12,7 @@ export const App = () => {
       <ThemeProvider theme={themeMode}>
         <GlobalStyle />
         <Profil onClick={() => setTheme()} theme={theme} />
+        <LinksList />
       </ThemeProvider>
     </StyledApp>
   )
@@ -23,5 +24,6 @@ const StyledApp = styled.div`
   margin-inline: auto;
   padding-block: 3.2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 `
