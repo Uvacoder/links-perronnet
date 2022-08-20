@@ -28,6 +28,6 @@ const StyledFooter = styled.footer`
   span {
     height: 0.1rem;
     width: 100%;
-    background-color: ${({ theme }) => theme.border};
+    background-color: ${({ theme }) => theme.primary};
   }
 `
