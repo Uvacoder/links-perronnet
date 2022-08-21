@@ -25,7 +25,6 @@ const StyledLinksCard = styled.li`
     padding: 1.4rem;
     transition: all 150ms ease-in-out;
     outline: 0.2rem solid transparent;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 
     &:hover {
       color: ${({ theme }) => theme.foreground["02"]};
