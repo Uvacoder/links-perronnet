@@ -1,25 +1,25 @@
 export const lightTheme = {
   background: {
-    "01": "#F1F5F9",
-    "02": "#E2E8F0"
+    "01": "#f1f5f9",
+    "02": "#e2e8f0"
   },
   foreground: {
     "01": "#475569",
-    "02": "#1E293B"
+    "02": "#1e293b"
   },
-  border: "#CBD5E1",
-  primary: "#0EA5E9"
+  border: "#cbd5e1",
+  primary: "#f43f5e"
 }
 
 export const darkTheme = {
   background: {
-    "01": "#0F172A",
-    "02": "#1E293B"
+    "01": "#0f172a",
+    "02": "#1e293b"
   },
   foreground: {
-    "01": "#94A3B8",
-    "02": "#E2E8F0"
+    "01": "#94a3b8",
+    "02": "#e2e8f0"
   },
   border: "#334155",
-  primary: "#38BDF8"
+  primary: "#22d3ee"
 }
