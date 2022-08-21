@@ -106,14 +106,13 @@ export const Svg = ({ name }) => {
 
   if (name === "logo") {
     return (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 27">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 27">
         <path
-          fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          d="M22 1h9l-2.5 15.5h-9L15 26h-2l4-25H3.5L1 16.5h9"
+          d="M10 16.5H1L3.5 1H17l-4 25h2l4.5-9.5h9L31 1h-9"
         ></path>
       </svg>
     )
