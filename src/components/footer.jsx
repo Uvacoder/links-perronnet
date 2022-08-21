@@ -22,12 +22,12 @@ const StyledFooter = styled.footer`
     min-width: 3.6rem;
     max-height: 3.6rem;
     max-width: 3.6rem;
-    fill: currentColor;
+    fill: ${({ theme }) => theme.primary};
   }
 
   span {
     height: 0.1rem;
     width: 100%;
-    background-color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.border};
   }
 `
